@@ -10,7 +10,7 @@ Introdução
  >* current_process = self()
 spawn_link(fn ->
   send(current_process, {:msg, "hello world"})
-end)
+end)<br>
 receive do
   {:msg, contents} -> IO.puts(contents)
 end .
