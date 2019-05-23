@@ -38,10 +38,10 @@ Para testar se deu tudo certo
 digite no terminal o comando
 iex
 se tudo estiver OK, deve ser apresentado no console algo parecido com isso
-Interactive Elixir press Ctrl + C to cancel
-iex > 1 + 1 
-2
+Interactive Elixir press Ctrl + C to cancel<br>
+iex > 1 + 1<br>
+2<br>
 
-Para criar um projeto com elixir use o comando
+Para criar um projeto com elixir use o comando<br>
  mix new nome_projeto
 
