@@ -7,7 +7,7 @@ Introdução
   **Recursos da plataforma**
   Todo código é executado dentro de Threads chamados de processos que são isolados e trocam informações por meio de mensagens exemplo:
   
- >* current_process = self()
+ > current_process = self()
 spawn_link(fn ->
   send(current_process, {:msg, "hello world"})
 end)<br>
@@ -22,7 +22,7 @@ end .
 
   A programação funcional promove uma eficiencia na codificação que ajuda os desenvolvedores a escrever códigos curtos, rápidos e de fácil manutenção.
   Por exemplo, a correspondência de padrões permite que os desenvolvedores destruam dados facilmente e acessem seu conteúdo:
->*%User{name: name, age: age} = User.get("John Doe")
+> %User{name: name, age: age} = User.get("John Doe")
 name #=> "John Doe".
 
 **Instalação Elixir no Ubuntu**
