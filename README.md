@@ -42,6 +42,14 @@ Interactive Elixir press Ctrl + C to cancel<br>
 iex > 1 + 1<br>
 2<br>
 
+**Executar Scripts no Elixir**
+Para executar um script crie um arquivo com extensão .exs, e cole o seguinte código
+> IO.puts "Teste Script no Elixir" 
+
+para executar digite no terminal:
+elixir nome_arquivo.exs
+
+
 Para criar um projeto com elixir use o comando<br>
  mix new nome_projeto
 
