@@ -53,3 +53,5 @@ elixir nome_arquivo.exs
 Para criar um projeto com elixir use o comando<br>
  mix new nome_projeto
 
+
+https://elixirschool.com/pt/lessons/basics/basics/
