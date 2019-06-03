@@ -34,7 +34,7 @@ Como o elixir roda na VM do Erlang, deve ser instalado suas dependencias. <br>
 Com o Erlang em mãos podemos instalar o Elixir<br>
 sudo apt-get install elixir<br>
 
-Para testar se deu tudo certo <br>
+Elixir vem com IEX, um console interativo, que permite avaliar expressões em Elixir. <br>
 digite no terminal o comando<br>
 iex<br>
 se tudo estiver OK, deve ser apresentado no console algo parecido com isso<br>
