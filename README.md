@@ -21,7 +21,7 @@ end .<br>
   **Programação Funcional no Elixir**<br>
 
   A programação funcional promove uma eficiencia na codificação que ajuda os desenvolvedores a escrever códigos curtos, rápidos e de fácil manutenção.<br>
-  Por exemplo, a correspondência de padrões permite que os desenvolvedores destruam dados facilmente e acessem seu conteúdo:<br>
+  Por exemplo, a correspondência de padrões permite que os desenvolvedores construam dados facilmente e acessem seu conteúdo:<br>
 > %User{name: name, age: age} = User.get("John Doe")<br>
 name #=> "John Doe".<br>
 
