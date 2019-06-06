@@ -29,7 +29,7 @@ name #=> "John Doe".<br>
 Como o elixir roda na VM do Erlang, deve ser instalado suas dependencias. <br>
 1- sudo apt update<br>
 2- sudo apt install erlang, segundo site do Elixir use este comando<br>
-3- sudo apt-get install esl-erlang<br>
+3- sudo apt-get install esl-erlang, foi testado este comando e realmente funcionou<br>
 
 Com o Erlang em mãos podemos instalar o Elixir<br>
 sudo apt-get install elixir<br>
