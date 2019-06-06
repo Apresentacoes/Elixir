@@ -52,6 +52,16 @@ elixir nome_arquivo.exs
 
 Para criar um projeto com elixir use o comando<br>
  mix new nome_projeto
+ 
+ **Paralelismo no Elixir**
+ O Compilador Elixir não é sequencial os arquivos são compilados em paralelo
+ 
+ A diretiva Elixir kernel.ParallelCompiler é responsável por gerar os compiladores onde cada um é responsável por um arquivo. Mas qual o número de compiladores? este número cresce se necessário.
+ Quando um compilador é construido tendo em base um unico arquivo, ele diz ao coordenador (mestre no OpenMP) para enviar uma mensagem :ok com a lista de diretivas que ele compilou.
+ Quando o compilador encontra uma dependência que não pode ser resolvida o manipulador de erros Elixir é acionado pela propria máquina virtual, enviando uma mensagem :waiting ao coordenador e aguarda até que o mesmo retorne.
+ 
+ Quando não usar o Elixir?
+ No momento em que se precisa construir aplicações que dependam de muito processamento de números, para este caso elixir é fraco, pois inicialmente o Elixir foi projetado para ser tolerânte a falhas e não para paralelização.
 
-
+Tutoriais:
 https://elixirschool.com/pt/lessons/basics/basics/
