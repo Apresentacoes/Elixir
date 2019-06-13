@@ -1,6 +1,6 @@
 
 # Elixir
-###Grupo: Cássio Elias, Marcelo Bristot, Matheus Luiz e Herick Maciel
+### Grupo: Cássio Elias, Marcelo Bristot, Matheus Luiz e Herick Maciel
 
 Introdução
   
